@@ -25,25 +25,21 @@ public class Test1 {
 		System.out.println("projectPath : "+projectPath);
 		System.setProperty("webdriver.chrome.driver", projectPath+"/Drivers/chromedriver/chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		baseUrl = "https://www.katalon.com/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 
 	@Test
 	public void test1() throws Exception {
-		driver.get("https://opensource-demo.orangehrmlive.com/");
-		driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='LOGIN Panel'])[1]/following::span[1]")).click();
-		driver.findElement(By.id("txtUsername")).click();
-		driver.findElement(By.id("txtUsername")).clear();
-		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-		driver.findElement(By.id("txtPassword")).click();
-		driver.findElement(By.id("txtPassword")).clear();
-		driver.findElement(By.id("txtPassword")).sendKeys("admin123");
-		driver.findElement(By.id("btnLogin")).click();
-		driver.findElement(By.id("MP_btn")).click();
-		Thread.sleep(4000);
-		driver.findElement(By.id("welcome")).click();
-		driver.findElement(By.linkText("Logout")).click();
+		driver.get("https://horizonweb.myqaweb.co.uk/");
+	    driver.findElement(By.id("ctl24_emailTextBox")).click();
+	    driver.findElement(By.id("ctl24_emailTextBox")).clear();
+	    driver.findElement(By.id("ctl24_emailTextBox")).sendKeys("a");
+	    driver.findElement(By.id("ctl24_passwordTextBox")).clear();
+	    driver.findElement(By.id("ctl24_passwordTextBox")).sendKeys("a");
+	    driver.findElement(By.id("ctl24_loginImageButton")).click();
+	    driver.findElement(By.id("ctl24_loginImageButton")).click();
 	}
 
 	@AfterClass(alwaysRun = true)
