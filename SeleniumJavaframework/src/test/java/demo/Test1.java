@@ -36,9 +36,32 @@ public class Test1 {
 	    driver.findElement(By.id("ctl24_emailTextBox")).click();
 	    driver.findElement(By.id("ctl24_emailTextBox")).clear();
 	    driver.findElement(By.id("ctl24_emailTextBox")).sendKeys("a");
+	    driver.findElement(By.xpath("//body")).click();
+	    driver.findElement(By.id("ctl24_passwordTextBox")).click();
 	    driver.findElement(By.id("ctl24_passwordTextBox")).clear();
 	    driver.findElement(By.id("ctl24_passwordTextBox")).sendKeys("a");
 	    driver.findElement(By.id("ctl24_loginImageButton")).click();
+	    driver.findElement(By.id("ctl12_keywordTextBox")).click();
+	    driver.findElement(By.id("ctl12_keywordTextBox")).clear();
+	    driver.findElement(By.id("ctl12_keywordTextBox")).sendKeys("00215x");
+	    driver.findElement(By.id("ctl12_keywordgoImageButton")).click();
+	    driver.findElement(By.id("ctl61_buyImageButton")).click();
+	    driver.findElement(By.id("ctl14_linesLabel")).click();
+	    driver.findElement(By.linkText("Got it!")).click();
+	    driver.findElement(By.id("ctl54_CartGridView_ctl02_DeptDropDownList")).click();
+	    new Select(driver.findElement(By.id("ctl54_CartGridView_ctl02_DeptDropDownList"))).selectByVisibleText("qa1");
+	    driver.findElement(By.id("ctl54_CartGridView_ctl02_DeptDropDownList")).click();
+	    driver.findElement(By.xpath("//body")).click();
+	    driver.findElement(By.id("ctl54_CheckoutButton")).click();
+	    driver.findElement(By.id("ctl54_orderRefTextBox_I")).click();
+	    driver.findElement(By.id("ctl54_orderRefTextBox_I")).clear();
+	    driver.findElement(By.id("ctl54_orderRefTextBox_I")).sendKeys("check auto");
+	    driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='You will be redirected to the Sage Pay website when you place your order.'])[1]/following::div[3]")).click();
+	    driver.findElement(By.id("ctl54_termsCheckBox")).click();
+	    driver.findElement(By.id("ctl54_completeImageButton")).click();
+	    //driver.findElement(By.id("ctl54_printImageButton")).click();
+	    // ERROR: Caught exception [ERROR: Unsupported command [selectWindow | win_ser_1 | ]]
+	    // ERROR: Caught exception [ERROR: Unsupported command [selectWindow | win_ser_local | ]]
 	    driver.findElement(By.id("ctl24_loginImageButton")).click();
 	}
 
