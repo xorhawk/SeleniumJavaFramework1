@@ -1,12 +1,9 @@
-[INFO ] 2019-12-20 13:20:45.495 [main] Log4jDemo - Firefox Browser started
-[INFO ] 2019-12-20 13:20:45.503 [main] Log4jDemo - Browser started
-[INFO ] 2019-12-20 13:36:28.753 [main] Log4jDemo - Firefox Browser started
-[INFO ] 2019-12-20 13:36:28.756 [main] Log4jDemo - Browser started
-[INFO ] 2019-12-20 13:38:21.489 [main] Log4jDemo - Firefox Browser started
-[INFO ] 2019-12-20 13:38:21.492 [main] Log4jDemo - Browser started
-[INFO ] 2019-12-20 13:42:08.069 [main] Log4jDemo - Firefox Browser started
-[INFO ] 2019-12-20 13:42:08.072 [main] Log4jDemo - Browser started
-[INFO ] 2019-12-20 13:44:22.284 [main] Log4jDemo - Firefox Browser started
-[INFO ] 2019-12-20 13:44:22.288 [main] Log4jDemo - Browser started
-[INFO ] 2019-12-20 13:46:13.313 [main] Log4jDemo - Firefox Browser started
-[INFO ] 2019-12-20 13:46:13.317 [main] Log4jDemo - Browser started
+[INFO ] 2020-01-07 14:24:20.592 [main] Log4jDemo - Firefox Browser started
+[INFO ] 2020-01-07 14:24:20.601 [main] Log4jDemo - Browser started
+[INFO ] 2020-01-07 15:15:24.392 [main] Log4jDemo - Firefox Browser started
+[INFO ] 2020-01-07 15:15:24.396 [main] Log4jDemo - Browser started
+[TRACE] 2020-01-07 15:17:44.595 [main] Log4jDemo - This is trace message
+[INFO ] 2020-01-07 15:17:44.598 [main] Log4jDemo - This is information message
+[ERROR] 2020-01-07 15:17:44.599 [main] Log4jDemo - This is an error message
+[WARN ] 2020-01-07 15:17:44.599 [main] Log4jDemo - This is an warning message
+[FATAL] 2020-01-07 15:17:44.599 [main] Log4jDemo - This is an fatal message

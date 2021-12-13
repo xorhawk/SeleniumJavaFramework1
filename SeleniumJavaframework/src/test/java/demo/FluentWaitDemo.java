@@ -49,7 +49,7 @@ public class FluentWaitDemo {
 				//WebElement linkElement= driver.findElement(By.xpath("//*[normalize-space(text()) and normalize-space(.)='Web result with site links'])[1]/following::span[1]"));
 
 				if(linkElement.isEnabled()) {
-					System.out.println("Element Found (Link found in Search results according to the xpath ");
+					System.out.println("Success : Element Found (Link found in Search results according to the xpath ");
 
 				}
 				return linkElement;

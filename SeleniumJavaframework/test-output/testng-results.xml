@@ -1,25 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13208" started-at="2019-12-20T16:15:51 GMT" finished-at="2019-12-20T16:16:05 GMT">
+  <suite name="Default suite" duration-ms="54908" started-at="2021-11-20T06:00:09 GMT" finished-at="2021-11-20T06:01:04 GMT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13208" started-at="2019-12-20T16:15:51 GMT" finished-at="2019-12-20T16:16:05 GMT">
-      <class name="demo.Test1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.Test1@467aecef]" name="setUp" is-config="true" duration-ms="5706" started-at="2019-12-20T16:15:51 GMT" finished-at="2019-12-20T16:15:57 GMT">
+    <test name="Default test" duration-ms="54908" started-at="2021-11-20T06:00:09 GMT" finished-at="2021-11-20T06:01:04 GMT">
+      <class name="demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="setUp" is-config="true" duration-ms="158" started-at="2021-11-20T06:00:09 GMT" finished-at="2021-11-20T06:00:09 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:demo.Test1@467aecef]" name="test1" duration-ms="6847" started-at="2019-12-20T16:15:57 GMT" finished-at="2019-12-20T16:16:04 GMT">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="setUpTest" is-config="true" duration-ms="2891" started-at="2021-11-20T06:00:09 GMT" finished-at="2021-11-20T06:00:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="test1" duration-ms="15037" started-at="2021-11-20T06:00:12 GMT" description="This TC will load the app and login" finished-at="2021-11-20T06:00:27 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.Test1@467aecef]" name="tearDown" is-config="true" duration-ms="615" started-at="2019-12-20T16:16:04 GMT" finished-at="2019-12-20T16:16:05 GMT">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="afterMethod" is-config="true" duration-ms="3" started-at="2021-11-20T06:00:27 GMT" finished-at="2021-11-20T06:00:27 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test1 status=SUCCESS method=Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract.test1()[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="test2" duration-ms="8189" started-at="2021-11-20T06:00:28 GMT" description="This TC adds products to cart product codes are in xlsx spreadsheet" data-provider="productdata" finished-at="2021-11-20T06:00:36 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CQR21332]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="test2" duration-ms="9941" started-at="2021-11-20T06:00:36 GMT" description="This TC adds products to cart product codes are in xlsx spreadsheet" data-provider="productdata" finished-at="2021-11-20T06:00:46 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PA02048]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-20T06:00:36 GMT" finished-at="2021-11-20T06:00:36 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract.test2(java.lang.String)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="test2" duration-ms="7868" started-at="2021-11-20T06:00:46 GMT" description="This TC adds products to cart product codes are in xlsx spreadsheet" data-provider="productdata" finished-at="2021-11-20T06:00:54 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SV43510]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-20T06:00:46 GMT" finished-at="2021-11-20T06:00:46 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract.test2(java.lang.String)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-20T06:00:54 GMT" finished-at="2021-11-20T06:00:54 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract.test2(java.lang.String)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="test3" duration-ms="7674" started-at="2021-11-20T06:00:54 GMT" finished-at="2021-11-20T06:01:01 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test5()[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="test5" duration-ms="1880" started-at="2021-11-20T06:01:01 GMT" finished-at="2021-11-20T06:01:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-20T06:01:01 GMT" finished-at="2021-11-20T06:01:01 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3 status=SUCCESS method=Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract.test3()[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-11-20T06:01:03 GMT" finished-at="2021-11-20T06:01:03 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test5 status=SUCCESS method=Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract.test5()[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="tearDownTest" is-config="true" duration-ms="785" started-at="2021-11-20T06:01:03 GMT" finished-at="2021-11-20T06:01:04 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract@528931cf]" name="tearDown" is-config="true" duration-ms="351" started-at="2021-11-20T06:01:04 GMT" finished-at="2021-11-20T06:01:05 GMT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- demo.Test1 -->
+      </class> <!-- demo.Test_HW_WExtReports_Add2Cart_EmptyCart_DataDriven_using_abstract -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

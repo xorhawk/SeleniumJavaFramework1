@@ -32,7 +32,7 @@ public class ExcelUtils {
 		try {
 
 			rowCount = sheet.getPhysicalNumberOfRows();
-			System.out.println("Number of rows : "+rowCount);
+			System.out.println("Number of Data rows : "+rowCount);
 
 		}
 		catch(Exception exp) {
@@ -48,7 +48,7 @@ public class ExcelUtils {
 		try {
 
 			colCount = sheet.getRow(0).getPhysicalNumberOfCells();
-			System.out.println("Number of Columns : "+colCount);
+			System.out.println("Number of Data Columns : "+colCount);
 
 		}
 		catch(Exception exp) {
